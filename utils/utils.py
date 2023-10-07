@@ -12,7 +12,7 @@ import matplotlib.font_manager as fontman
 #from .. import backend
 
 from skimage import io, transform
-from collections import Iterable
+from collections.abc import Iterable
 from keras import backend as K
 from keras.models import load_model
 

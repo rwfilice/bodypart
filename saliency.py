@@ -5,8 +5,8 @@ import numpy as np
 import matplotlib.cm as cm
 from skimage.transform import resize as imresize
 import tempfile
-from keras.layers.convolutional import Conv2D
-from keras.layers.pooling import MaxPooling1D, MaxPooling2D, AveragePooling1D, AveragePooling2D
+from keras.layers import Conv2D
+from keras.layers import MaxPooling1D, MaxPooling2D, AveragePooling1D, AveragePooling2D
 from keras import backend as K
 from keras.models import load_model
 from losses import ActivationMaximization
